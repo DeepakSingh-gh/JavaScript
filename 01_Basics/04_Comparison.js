@@ -19,4 +19,4 @@ console.log(undefined<=0); // -----> With Undefine all operators give False o/p.
 console.log(undefined>0);
 
 //  === (Strickely Check)
-console.log("2" === 2); // different datatype.
+console.log("2" === 2); // different datatype..
