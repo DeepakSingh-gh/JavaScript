@@ -15,7 +15,7 @@ console.log(null==0); // ------Equality-check-----------
 console.log(null>=0);  // null --> 0 ------Equality-check-----------
 
 console.log(undefined==0);
-console.log(undefined<=0); // -----> With Undefine all operators give False o/p.
+console.log(undefined<=0); // -----> With Undefine, all operators give False o/p.
 console.log(undefined>0);
 
 //  === (Strickely Check)
