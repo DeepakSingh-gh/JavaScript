@@ -1,28 +1,40 @@
 /*First decide why you wnat to learn JavaScript b/c if you are not sure why you learn js then you will not done good in this domain
  Think/Try to build something like websites or any product by learning javascript.*/
 
+ let score = "33"
+ console.log(typeof score)
+ console.log(typeof "score")
+ console.log(typeof "33")
 
- const accountId=144556
- let accountEmail="deepaksingh@gmail.com"
- var accountPassword="deepak1234"
- accountCity="Varanasi" //inefficient way to declear variables
- 
- // accountId=12  ----> comment=> commant_slash
- 
- accountEmail="ashwani.com"
- accountPassword="ashwani1234"
- accountCity="Bijnor"
- 
- console.log(accountId);
- 
- console.table([accountId, accountEmail,accountPassword,accountCity])//--=> Multi value prints in console
- 
- /*---------------Notes-----------------
-  *in JS we have two ways to declier a variable 1>Constant 2>variable-->Two types--->a>let   b> var.
- * Now we use only let declaration due to var scope problems*/
- 
+ let valueInNumber = Number(score);// Score ---> Number
+ console.log(typeof valueInNumber);
+
+ let num= "333abc"// no: me convert nahe hona chaiye
+ console.log(typeof num)
+ let ValueInnum = Number(num);// Use capital N in number keyword to typecast
+ console.log(typeof ValueInnum);
+ console.log(ValueInnum);//NaN
+
+ let temp=null
+ console.log(typeof temp)
+ let ValueIntemp = Number(temp);
+ console.log(typeof ValueIntemp);
+
  /*
- prefer not to use var because of issue in block scope and functional scope
+ "33" => 33
+ "33abc" => NaN
+ true => 1; false => 0
+ 1 => true; 0 => false
+ "" => False
+ "not_empty" => true
+
  */
- 
- // semicolom(;) is optional in JS
+
+ let isLoggedIn=1
+ let booleanIsLoggedIn = Boolean(isLoggedIn);
+ console.log(booleanIsLoggedIn);
+
+ let someNumber = 33
+ let stringNumber = String(someNumber)// No: => Stringl.
+ console.log(typeof stringNumber);
+ console.log(stringNumber)
